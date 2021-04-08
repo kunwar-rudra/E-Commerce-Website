@@ -28,10 +28,9 @@
 
       {% block js %}
       <script>
-      {% if thank2 %}
+      {% if thank %}
       alert('Thanks for contacting us. we will try to solve your problem ASAP by rudra')
-      localStorage.clear();
-      document.location = "/shop";
+      document.location = "/shop/contact";
       {% endif %}
       </script>
       {% endblock %}
